@@ -1,3 +1,125 @@
+@media only screen and (max-width:768px){
+    body .wallets-header{
+        
+        background-color: rgb(255, 255, 255);
+    }
+    .section-wallets{
+        width: 100%;
+        max-width: 768px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border: 3px solid mistyrose;
+        border-radius: 2px;
+         
+          
+    }
+    .section-wallets .wallets-wrapper-left{
+        width: 100%;
+        max-width: 768px;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(51, 251, 171, 0.421);
+      }
+    .section-wallets .wallets-items-name{
+        width: 500px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .section-wallets .wallets-items{
+        width: 500px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:550px){
+    .wallets-header{
+        
+        background-color: white;
+    }
+    .section-wallets{
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border: 3px solid mistyrose;
+        border-radius: 2px;
+         
+          
+    }
+    .section-wallets .wallets-wrapper-left{
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(51, 251, 171, 0.421);
+      }
+    .section-wallets .wallets-items-name{
+        width: 350px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .section-wallets .wallets-items{
+        width: 350px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:425px){
+    .wallets-header{
+       
+        background-color: white;
+    }
+    .section-wallets{
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border: 3px solid mistyrose;
+        border-radius: 2px;
+         
+          
+    }
+    .section-wallets .wallets-wrapper-left{
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(51, 251, 171, 0.421); 
+      }
+    .section-wallets .wallets-items-name{
+        width: 300px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .section-wallets .wallets-items{
+        width: 300px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+   
+}
+
 .wallets-header{
     width: 100%;
     max-width: 2300px;
